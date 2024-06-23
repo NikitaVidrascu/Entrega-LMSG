@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="pantalla" disabled>
+        <div class="botones">
+            <button onclick="limpiarPantalla()">C</button>
+            <button onclick="añadirAPantalla('^')">^</button>
+            <button onclick="añadirAPantalla('.')">.</button>
+            <button onclick="añadirAPantalla('+')">+</button>
+            <button onclick="añadirAPantalla('7')">7</button>
+            <button onclick="añadirAPantalla('8')">8</button>
+            <button onclick="añadirAPantalla('9')">9</button>
+            <button onclick="añadirAPantalla('-')">-</button>
+            <button onclick="añadirAPantalla('4')">4</button>
+            <button onclick="añadirAPantalla('5')">5</button>
+            <button onclick="añadirAPantalla('6')">6</button>
+            <button onclick="añadirAPantalla('*')">*</button>
+            <button onclick="añadirAPantalla('1')">1</button>
+            <button onclick="añadirAPantalla('2')">2</button>
+            <button onclick="añadirAPantalla('3')">3</button>
+            <button onclick="añadirAPantalla('/')">/</button>
+            <button onclick="añadirAPantalla('0')">0</button>
+            <button onclick="calcularResultado()" class="igual">=</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
